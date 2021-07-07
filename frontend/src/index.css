@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0C0D13;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/************************* Work Page  ***********************/
+#work-description h1{
+    color: rgb(240, 240, 245);
+}
+#work-description p{
+    color: rgb(178, 180, 205);
+}
+
+
+.article-heading {
+    margin: 5rem 0;
+    display: flex;
+}
+
+.heading-text h1 {
+    font-size: 60px;
+    color: #ffffff;
+    margin: 5rem 0px;
+}
+.heading-text h4{
+    font-size: 24px;
+    color: rgb(178, 180, 205);
+}
+
+.heading-image img {
+    width: 39vw;
+    height: 48rem;
+    border-radius: 1rem;
+}
+
+
+
+/****************************************** About me page ******************************************/
+
+.about-me {
+}
+
+@media only screen and (max-width:1023px){
+  .article-card{
+      width: 150px;
+      height: 280px;
+      font-size: 20px;
+  }
+}
+@media only screen and (max-width:767px){
+  #articles h2{
+      padding-left: 2px;
+  }
+  .article-card{
+      overflow: hidden;
+      margin-right: 2rem;
+      width:115%;
+  }
+}
+@media only screen and (max-width: 600px){
+  #articles{
+      overflow: hidden;
+  }
+  #articles h2{
+      padding-left: 0;
+  }
+  .article-cards{
+      width: 115%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  #contact a{
+      font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width:1279px){
+  .contact-card{
+      width: 24vw;
+  }
+}
+@media only screen and (max-width:767px){
+  .contact-card{
+      width: 100%;
+  }
+  .footer-links{
+      height: 362px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .role h1{
+      font-size: 12rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-links {
+      width: 22rem;
+      align-items: center;
+  }
+  .bi-arrow-up-short {
+      bottom: -30px;  
+  }
+  .nav-links li:hover .bi-arrow-up-short{
+      bottom: -19px;
+      display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .featured-work-card{
+      height: 397px;
+  }
+  .description{
+      font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 703px){
+    .work-visual{
+        display: none;
+    }
+    .work-details{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

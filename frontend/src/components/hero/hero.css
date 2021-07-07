@@ -1,0 +1,74 @@
+
+.introduction{
+    color: #cccdcf;
+
+}
+.introduction p::before{
+    content: "";
+    display: inline-block;
+    width: 6rem;
+    height: 0.25rem;
+    background-color: #f0864f;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+.role h1{
+    font-size: 14rem;
+    font-weight: bolder;
+    background: linear-gradient(45deg,#dc7d55 25%,#722b36);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.role-details  {
+    color: #B2B4CD;
+}
+
+.interaction-design::before{
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+ 
+}
+
+.role-details span{
+    text-decoration-line: underline;
+    text-decoration-color: #f0864f;
+    color: rgb(240, 240, 245);
+}
+.role-details a{
+    color: #FDDCB0;
+}
+.link{
+    color: #cccdcf;
+    transition: color ease 0.3s;
+}
+.link::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    background: #32354D;
+    transition: all ease 0.3s;
+}
+.link:hover{
+    color: white;
+    text-decoration: none;
+}
+.link:hover::after{
+    height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .role h1{
+        font-size: 12rem;
+    }
+  }

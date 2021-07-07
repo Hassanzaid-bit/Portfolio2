@@ -1,0 +1,82 @@
+#featured-work h2{
+    color: #eaf4f7;
+}
+.featured-work-card h2, #articles h2{
+    color: #eaf4f7;
+}
+.featured-work-card {
+    background: #222435;
+    transition: all .5s ease; 
+}
+ .featured-work-card:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+    transition: all .4s ease;
+}
+
+.work-details .description{
+     color: #B2B4CD;
+ }
+ .work-details .btn{
+     background: #F6AB79;
+     color: #363a5a;
+     font-weight: bolder;
+ }
+ .platform{
+     color: #f0864f;
+     font-size: 16px;
+ }
+ .link{
+    color: #cccdcf;
+    transition: color ease 0.3s;
+}
+.link::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    background: #32354D;
+    transition: all ease 0.3s;
+}
+.link:hover{
+    color: white;
+    text-decoration: none;
+}
+.link:hover::after{
+    height: 100%;
+}
+#more-projects a{
+    color: #FDDCB0;
+}
+
+@media only screen and (max-width: 767px) {
+    .featured-work-card{
+        height: 397px;
+    }
+    .description{
+        font-size: 2rem;
+    }
+  }
+  @media only screen and (max-width: 703px){
+      .work-visual{
+          display: none;
+      }
+      .work-details{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+  }
+
+
+
+
+
+
+
+
+
+

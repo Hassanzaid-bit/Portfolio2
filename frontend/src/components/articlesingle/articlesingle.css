@@ -1,0 +1,17 @@
+
+.heading-text h1 {
+    color: #ffffff;  
+}
+.heading-text h4, p{
+    color: rgb(178, 180, 205);
+}
+
+.heading-image img {
+    width: 39vw;
+    height: 48rem;
+}
+
+.article-content{
+    height: auto;
+    width: 80%;
+}

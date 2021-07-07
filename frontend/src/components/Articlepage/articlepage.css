@@ -1,0 +1,25 @@
+
+#articles-content h1{
+    color: #ffffff;  
+}
+
+.articlepage-card{
+    color: rgb(178, 180, 205);
+    transition: all .5s ease; 
+}
+
+.articlepage-card:hover{
+    background-color: #222435;
+    border-radius: 1rem;
+    transform: translate3D(0,-1px,0) scale(1.03); 
+    transition: all .4s ease;
+}
+.articlepage-card h3 {
+    color: #ffffff;
+}
+.articlepage-card a{
+    color: #f0864f;
+}
+.articlepage-card a:hover{
+    color: #f0864f;
+}

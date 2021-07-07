@@ -1,0 +1,42 @@
+footer h3{
+    color: #F0F0F5;
+}
+.contact-card {
+    width: 30vw;
+}
+
+.contact-card h4{
+    color: #F0F0F5;
+}
+.content-card div{
+    background: #722b36;
+}
+.contact-card .bi-arrow-right {
+    color: antiquewhite;
+    transition:  right ease-in-out 0.3s;
+}
+.contact-card:hover .bi-arrow-right{
+    right: 1rem;
+    transition:  right ease-in-out 0.3s;
+    
+}
+.contact-card h4:nth-child(2){
+    color: #cccdcf;
+}
+
+.copyright{
+    color: #ffffff;
+}
+@media only screen and (max-width:1279px){
+    .contact-card{
+        width: 24vw;
+    }
+}
+@media only screen and (max-width:767px){
+    .contact-card{
+        width: 100%;
+    }
+    .footer-links{
+        height: 362px;
+    }
+}

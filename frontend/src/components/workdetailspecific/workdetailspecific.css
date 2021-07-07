@@ -1,0 +1,29 @@
+
+#project-details a, .article-heading a{
+    color: #FDDCBA;
+}
+#project-details a:hover, .article-heading a:hover{
+    text-decoration: none;
+    color: #FDDCBA;
+}
+
+#project-details h1{
+    color: #ffffff;
+}
+#project-details p{
+    color: rgb(178, 180, 205);
+}
+.project-image{
+    padding: 3rem;
+}
+
+.project-image img{
+   width: 80vw;
+}
+#project-details button{
+    background: #f0864f;
+    left: 35vw;
+}
+#project-details button:hover{
+    color: #ffffff;
+}

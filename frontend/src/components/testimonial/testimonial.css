@@ -1,0 +1,25 @@
+.quote{
+    color: #eaf4f7;
+    width: 75vw;
+    margin: 0 auto;
+}
+.quote::before{
+    content: open-quote;
+}
+.quote::after{
+    content: close-quote;
+}
+.name{
+    color: #363a5a;
+}
+.name::before{
+    content: '';
+    display: inline-block;
+    width: 4rem;
+    height: 0.5rem;
+    background: #363a5a;
+    vertical-align: super;
+    margin-right: 1rem;
+}
+
+  

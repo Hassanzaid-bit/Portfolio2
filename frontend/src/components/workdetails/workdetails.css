@@ -1,0 +1,14 @@
+#featured-work h2{
+    color: #eaf4f7;
+}
+.featured-work-card h2, #articles h2{
+    color: #eaf4f7;
+}
+.featured-work-card {
+    background: #222435;
+    transition: all .5s ease; 
+}
+ .featured-work-card:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+    transition: all .4s ease;
+}
