@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/frontend/build/static/css/main.c5d97bd9.chunk.css",
-    "main.js": "/frontend/build/static/js/main.7103c878.chunk.js",
-    "main.js.map": "/frontend/build/static/js/main.7103c878.chunk.js.map",
-    "runtime-main.js": "/frontend/build/static/js/runtime-main.759b4d66.js",
-    "runtime-main.js.map": "/frontend/build/static/js/runtime-main.759b4d66.js.map",
-    "static/js/2.6dc70bbd.chunk.js": "/frontend/build/static/js/2.6dc70bbd.chunk.js",
-    "static/js/2.6dc70bbd.chunk.js.map": "/frontend/build/static/js/2.6dc70bbd.chunk.js.map",
-    "index.html": "/frontend/build/index.html",
-    "static/css/main.c5d97bd9.chunk.css.map": "/frontend/build/static/css/main.c5d97bd9.chunk.css.map",
-    "static/js/2.6dc70bbd.chunk.js.LICENSE.txt": "/frontend/build/static/js/2.6dc70bbd.chunk.js.LICENSE.txt",
-    "static/media/iphone.b9654da1.webp": "/frontend/build/static/media/iphone.b9654da1.webp"
+    "main.css": "/frontend/static/css/main.c5d97bd9.chunk.css",
+    "main.js": "/frontend/static/js/main.7103c878.chunk.js",
+    "main.js.map": "/frontend/static/js/main.7103c878.chunk.js.map",
+    "runtime-main.js": "/frontend/static/js/runtime-main.076ce67a.js",
+    "runtime-main.js.map": "/frontend/static/js/runtime-main.076ce67a.js.map",
+    "static/js/2.6dc70bbd.chunk.js": "/frontend/static/js/2.6dc70bbd.chunk.js",
+    "static/js/2.6dc70bbd.chunk.js.map": "/frontend/static/js/2.6dc70bbd.chunk.js.map",
+    "index.html": "/frontend/index.html",
+    "static/css/main.c5d97bd9.chunk.css.map": "/frontend/static/css/main.c5d97bd9.chunk.css.map",
+    "static/js/2.6dc70bbd.chunk.js.LICENSE.txt": "/frontend/static/js/2.6dc70bbd.chunk.js.LICENSE.txt",
+    "static/media/iphone.b9654da1.webp": "/frontend/static/media/iphone.b9654da1.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.759b4d66.js",
+    "static/js/runtime-main.076ce67a.js",
     "static/js/2.6dc70bbd.chunk.js",
     "static/css/main.c5d97bd9.chunk.css",
     "static/js/main.7103c878.chunk.js"

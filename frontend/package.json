@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage" : "https://hassanzaid.herokuapp.com/frontend/build", 
+  "homepage" : "https://hassanzaid.herokuapp.com/frontend/", 
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8000",
